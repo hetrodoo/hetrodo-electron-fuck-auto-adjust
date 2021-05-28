@@ -1,6 +1,6 @@
 ## Tired of chrome, skype and other apps changing your microphone sensitivity? I've got you covered! With Fuck Auto Adjust your sensitivity will always be what you've selected.
 
-![image]()
+![image](https://user-images.githubusercontent.com/48604350/119916100-4285b780-bf3a-11eb-9b62-78a42a259b8d.png)
 
 ## How to use
 
