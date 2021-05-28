@@ -1,10 +1,13 @@
 <template>
-    <v-app>
+    <v-app
+        style="border-radius: 9px"
+    >
         <v-app-bar
             app
             dark
             dense
             color="pink"
+            class="rounded-t-lg"
         >
             <v-app-bar-title>
                 Fuck Auto Adjust

@@ -1,7 +1,7 @@
 {
     "name": "fuck-auto-adjust",
     "author": "hetrodo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "private": true,
     "scripts": {
         "serve": "vue-cli-service electron:serve",
