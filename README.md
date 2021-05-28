@@ -4,7 +4,7 @@
 
 ## How to use
 
-Go to the [releases](https://github.com/hetrodoo/hetrodo-app-fuck-auto-adjust/releases) page, download the latest version,
+Go to the [releases](https://github.com/hetrodoo/hetrodo-electron-fuck-auto-adjust/releases) page, download the latest version,
 install, choose the volume level, press apply, and you are done.
 
 ## Building on your own
