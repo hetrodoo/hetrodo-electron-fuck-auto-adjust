@@ -1,0 +1,51 @@
+{
+    "name": "fuck-auto-adjust",
+    "author": "hetrodo",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service electron:serve",
+        "build": "yarn electron-icon:build && yarn electron:build",
+        "electron:build": "vue-cli-service electron:build",
+        "postinstall": "electron-builder install-app-deps",
+        "postuninstall": "electron-builder install-app-deps",
+        "electron-icon:build": "electron-icon-builder --input=./public/icon.png --output=build --flatten"
+    },
+    "main": "background.js",
+    "dependencies": {
+        "@types/auto-launch": "^5.0.1",
+        "auto-launch": "^5.0.5",
+        "core-js": "^3.6.5",
+        "vue": "^2.6.11",
+        "vue-class-component": "^7.2.3",
+        "vue-property-decorator": "^9.1.2",
+        "vue-router": "^3.2.0",
+        "vuetify": "^2.4.0",
+        "vuex": "^3.4.0",
+        "win-audio": "^2.0.2"
+    },
+    "devDependencies": {
+        "@types/electron-devtools-installer": "^2.2.0",
+        "@typescript-eslint/eslint-plugin": "^4.18.0",
+        "@typescript-eslint/parser": "^4.18.0",
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
+        "@vue/cli-plugin-router": "~4.5.0",
+        "@vue/cli-plugin-typescript": "~4.5.0",
+        "@vue/cli-plugin-vuex": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "@vue/eslint-config-typescript": "^7.0.0",
+        "electron": "^12.0.0",
+        "electron-devtools-installer": "^3.1.0",
+        "electron-icon-builder": "^2.0.1",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^6.2.2",
+        "sass": "^1.32.0",
+        "sass-loader": "^10.0.0",
+        "typescript": "~4.1.5",
+        "vue-cli-plugin-electron-builder": "~2.0.0",
+        "vue-cli-plugin-vuetify": "~2.4.0",
+        "vue-template-compiler": "^2.6.11",
+        "vuetify-loader": "^1.7.0"
+    }
+}
